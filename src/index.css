@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #1e293b;
+    background-color: #f8fafc;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, .font-heading {
+    letter-spacing: -0.02em;
+  }
+}
+
+@keyframes pulseSubtle {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 10px 25px -5px rgba(22, 163, 74, 0.4);
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow: 0 15px 30px -5px rgba(22, 163, 74, 0.6);
+  }
+}
+
+.animate-cta {
+  animation: pulseSubtle 3s ease-in-out infinite;
+}

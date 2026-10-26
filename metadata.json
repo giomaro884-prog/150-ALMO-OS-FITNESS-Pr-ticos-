@@ -1,0 +1,6 @@
+{
+  "name": "150 Almoços Fitness - Página de Vendas",
+  "description": "Página de vendas de alta conversão para o guia 150 Almoços Fitness Práticos e Econômicos, com oferta básica e pacote completo com super bônus.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
